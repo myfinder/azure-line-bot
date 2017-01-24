@@ -4,7 +4,7 @@
       "name": "myQueueItem",
       "type": "queueTrigger",
       "direction": "in",
-      "queueName": "incoming-queue",
+      "queueName": "outgoing-queue",
       "connection": "AzureWebJobsDashboard"
     }
   ],
