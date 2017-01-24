@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "name": "myQueueItem",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "outgoing-queue",
+      "connection": "AzureWebJobsDashboard"
+    }
+  ],
+  "disabled": false
+}
